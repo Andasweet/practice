@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1 {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .main {
+            width: 400px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        .red {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="time">00:00:00</h1>
+    <div class="main">
+        <input id='inText'>
+        <select id="sel">
+            <option value="0">请选择</option>
+            <option value="3600">小时</option>
+            <option value="60">分钟</option>
+            <option value="1">秒</option>
+        </select>
+        <button id ='startBtn'>开始倒计时</button>
+    </div>
+
+
+    <script src="../lib/j1.js"></script>
+    <script src="js/djs.js"></script>
+</body>
+</html>

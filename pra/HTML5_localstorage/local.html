@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table,tr,th,td {
+            border: 1px solid;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        #reset {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p>
+            <label>姓名：
+                <input id="name" type="text">
+            </label>
+        </p>
+
+        <p>
+            <label>性别：
+                男<input name="gender" type="radio" value="男" checked>
+                女<input name="gender" type="radio" value="女">
+            </label>
+        </p>
+        
+        <p>
+            <label>电话：
+                <input id="mobile" type="text">
+            </label>
+        </p>
+        
+        <p>
+            <label>住址：
+                <input id="address" type="text">
+            </label>
+        </p>
+        <input id="reset" type="reset">
+    </form>
+
+    <button id="saveBtn">保存</button>
+
+<hr>
+
+    <table class="wp">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>电话</th>
+                <th>住址</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="list">
+            
+         <!--    <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+            
+        </tbody>
+    </table>
+    
+
+    <script src="../lib/jquery-1.12.3.js"></script>
+    <script src="local.js"></script>
+</body>
+</html>

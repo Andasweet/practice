@@ -1,0 +1,17 @@
+
+.clear {
+    clear: both;
+}
+ul,li {
+    list-style: none;
+}
+
+span {
+    display: inline-block;
+    width: 50px;
+    height: 18px;
+    border: 1px solid;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    padding: 3px;
+}
