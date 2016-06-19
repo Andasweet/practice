@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>列表页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <span class="arrow">
+            <i></i>
+        </span>
+        <div class="ipt-wp">
+            <input type="text">
+            <span class="placeholder">智能大屏手机.</span>
+        </div>
+        <div class="circle-wp">  
+            <span class="circle"></span>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <span class="on">推荐</span>
+        <span class="spec">
+            价格
+            <img src="img/1.png">
+        </span>
+        <span>销量</span>
+        <span>评价</span>
+    </nav>
+
+    <section class="pro">
+        <img src="img/2.png">
+        <div class="pro-detail">
+            <p>仅799元乐享原价2000元长城爱乐专业录音棚单曲地ddf... </p>
+            <span class="pri">￥3952000.00</span>
+            <img class="hwg" src="img/3.png">
+            <p class="pl">199人评论</p>
+            <span class="mj">满1000减50</span>
+            <span class="shui">包税</span>
+            <span class="dot">
+                <i></i>              
+            </span>
+        </div>
+    </section>
+
+    <section class="pro">
+        <img src="img/2.png">
+        <div class="pro-detail">
+            <p>仅799元乐享原价2000元长城爱乐专业录音棚单曲地ddf... </p>
+            <span class="pri">￥3952000.00</span>
+            <img class="hwg" src="img/3.png">
+            <p class="pl">199人评论</p>
+            <span class="mj">满1000减50</span>
+            <span class="shui">包税</span>
+            <span class="dot">
+                <i></i>              
+            </span>
+        </div>
+    </section>
+
+    <section class="pro">
+        <img src="img/2.png">
+        <div class="pro-detail">
+            <p>仅799元乐享原价2000元长城爱乐专业录音棚单曲地ddf... </p>
+            <span class="pri">￥3952000.00</span>
+            <img class="hwg" src="img/3.png">
+            <p class="pl">199人评论</p>
+            <span class="mj">满1000减50</span>
+            <span class="shui">包税</span>
+            <span class="dot">
+                <i></i>              
+            </span>
+        </div>
+    </section>
+
+    <section class="pro">
+        <img src="img/2.png">
+        <div class="pro-detail">
+            <p>仅799元乐享原价2000元长城爱乐专业录音棚单曲地ddf... </p>
+            <span class="pri">￥3952000.00</span>
+            <img class="hwg" src="img/3.png">
+            <p class="pl">199人评论</p>
+            <span class="mj">满1000减50</span>
+            <span class="shui">包税</span>
+            <span class="dot">
+                <i></i>              
+            </span>
+        </div>
+    </section>
+
+
+    <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    </script>   
+</body>
+</html>

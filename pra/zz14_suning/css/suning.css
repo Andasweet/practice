@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    background-image: url(../img/icons.png);
+}
+
+.nav-r {
+    width: 35px;
+    background-color: #383838;
+    position: fixed;
+    right: 0px;
+    height: 100%;
+}
+
+.menu1 {
+    margin-top: 400px;
+}
+.menu1>div {
+    position: relative;
+    height: 32px;
+}
+
+.menu1>div>i {
+    display: inline-block;
+    height: 32px;
+    width: 35px;
+    position: relative;
+    z-index: 1;
+    background-color: #383838;
+}
+
+.menu1 .lc {   
+    background-position: -26px -83px;
+}
+
+.menu1 .lc1:hover .lc {
+    background-color: #D89001;
+    background-position: 9px -83px;
+}
+
+.menu1 .zj {
+    background-position: -26px -113px;
+}
+.menu1 .zj1:hover .zj {
+    background-color: #D89001;
+    background-position: 9px -113px;
+}
+.menu1 .qd {
+    background-position: -27px -284px;
+}
+.menu1 .qd1:hover .qd {
+    background-color: #D89001;
+    background-position: 8px -284px;
+}
+
+.menu1>div>span {
+    display: inline-block;
+    width: 47px;
+    height: 32px;
+    background-color: #383838;
+    color: #D89001;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.menu1>div:hover span {
+    background-color: #D89001;
+    color: #383838;
+}
+
+.zx1 .zx {
+    background-position: -28px -169px;
+}
+
+.zx:hover {
+    background-position: 9px -169px;
+    background-color: #D89001;
+}
+.zx1 .zx0 {
+    display: inline-block;
+    width: 75px;
+    height: 32px;
+}
+
+.zx1 .fk {
+    background-position: -28px -201px;
+}
+
+.fk:hover {
+    background-position: 9px -201px;
+    background-color: #D89001;
+}
+
+.zx1 .ewm {
+    background-position: -27px -143px;
+}
+
+.ewm:hover {
+    background-position: 9px -143px;
+    background-color: #D89001;
+}
+.ewm .triangle {
+    display: inline-block;
+    border: 5px solid #fff;
+    border-color: transparent transparent transparent #fff;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    display: none;
+}
+
+.zx1 .ewm:hover .triangle {
+    display: block;
+}
+
+.zx1 .ewm-img {
+    display: inline-block;
+    width: 131px;
+    height: 154px;
+    background-image: url(../img/code.jpg);
+    position: absolute;
+    top: -122px;
+}
+

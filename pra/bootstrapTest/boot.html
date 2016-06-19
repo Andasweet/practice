@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wp">
+        <button>my btn</button>
+
+        <div>my div</div>
+
+        <span>my span</span>
+    </div>
+
+
+<!-- <a href="#">Inbox <span class="badge">42</span></a> -->
+<!-- <input type="text" readonly="readonly" placeholder="nihao"> -->
+
+<!-- <div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+ -->
+
+
+
+
+    <script src="../lib/jquery-1.12.3.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        !function(window, document, $, undefined) {
+            var $wp = $('.wp');
+            $wp.on('click', function(e) {
+                // alert(e.target);
+                console.log(e.target)
+            });
+            
+        }(window, document, jQuery);
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+html {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+}
+.gift {
+    width: 5.75rem;
+    height: 5.75rem;
+    background-color: #ecebde;
+    margin: 4.55rem auto 1rem;
+    background-image: url(img/gift.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    border-radius: 50%;
+}
+.buy {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.buy span {
+    color: #d10311;
+    font-weight: bold;
+    margin: 0px 0.25rem;
+}
+
+.share {
+    font-size: 0.7rem;
+    color: #333;
+    margin: 0.5rem 0 0.85rem;
+}
+
+.btn {
+    width: 9.65rem;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    background-color: #d10311;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.sd {
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+    color: #999999;
+}
+/*div {
+    text-align: center;
+    margin: 0 auto;
+}
+.gift {
+    width: 115px;
+    height: 115px;
+    background-color: #ecebde;
+    margin: 91px auto 20px;
+    background-image: url(img/gift.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    border-radius: 50%;
+}
+.buy {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.buy span {
+    color: #d10311;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.share {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 17px;
+}
+
+.btn {
+    width: 193px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #d10311;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sd {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #999999;
+}*/

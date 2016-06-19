@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>把爱送给TA</title>
+    <link rel="stylesheet" href="gift.css">
+</head>
+<body>
+
+    <div class="top card">
+        <header>
+            我想对TA说:
+        </header>
+        <div class="textarea">           
+            <textarea>爷就是任性，送你了！</textarea>
+        </div>
+    </div>
+
+    <div class="center card">
+        <header>
+            <span>对TA显示价格</span>
+            <div class="on-off">
+                <div class="circle"></div>
+                <input  id="ipt1" type="checkbox" class="ipt1">
+                <label for="ipt1">
+                    <img src="img/on.png" width="50%">
+                </label>
+            </div>
+        </header>
+        <section>
+            <img src="img/bear.png">
+            <div>
+                Genanx格男士夏季新款潮流时尚男士士短袖纯色衬衫地...
+                <span>￥242.00</span>          
+            </div> 
+        </section>
+        <div class="who">
+            <span class="sg">送给:</span>
+            <div class="add">
+                <div class="less"></div>
+                <div class="num">1<input type="text"></div>
+                <div class="more"></div>
+            </div>
+            <span class="ren">人</span>
+        </div>          
+    </div>
+
+    <div class="bottom card">
+        <p>商品总额：<span>￥232.00</span></p>
+        <p class="yf">运&nbsp;&nbsp;费：<span>￥10.00</span></p>
+        <p class="total">总&nbsp;&nbsp;计：<span>￥242.00</span></p>
+    </div>
+
+    <div class="btn">放入礼物盒</div>
+
+    
+    <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        };
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    </script>
+</body>
+</html>
