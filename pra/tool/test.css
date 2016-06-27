@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.tab {
+    width: 560px;
+    margin: 30px auto;
+}
+.tab ul li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.tab ul li.on {
+    background-color: red;
+    color: #fff;
+}
+
+.tbody {
+    height: 200px;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.tbody div {
+    width: 560px;
+    height: 200px;
+}

@@ -28,10 +28,7 @@
 
   animal.run.call(dog1,"abc","def");
 
-
-
 }();
-
 
 
 /*var age = 60;
